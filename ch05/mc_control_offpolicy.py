@@ -1,8 +1,7 @@
-import os, sys; sys.path.append(os.path.join(os.path.dirname(__file__), '..'))  # for importing the parent dirs
 from collections import defaultdict
 import numpy as np
-from common.gridworld import GridWorld
-from common.utils import greedy_probs
+from gridworld import GridWorld
+from utils import greedy_probs
 
 
 class McOffPolicyAgent:

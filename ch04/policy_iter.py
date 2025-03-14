@@ -1,9 +1,6 @@
-if '__file__' in globals():
-    import os, sys
-    sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
 from collections import defaultdict
-from common.gridworld import GridWorld
-from ch04.policy_eval import policy_eval
+from gridworld import GridWorld
+from policy_eval import policy_eval
 
 
 def argmax(d):

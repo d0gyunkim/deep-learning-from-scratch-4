@@ -1,8 +1,5 @@
-if '__file__' in globals():
-    import os, sys
-    sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
 from collections import defaultdict
-from common.gridworld import GridWorld
+from gridworld import GridWorld
 
 
 def eval_onestep(pi, V, env, gamma=0.9):

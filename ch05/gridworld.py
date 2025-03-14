@@ -1,5 +1,5 @@
 import numpy as np
-import common.gridworld_render as render_helper
+import gridworld_render as render_helper
 
 
 class GridWorld:
